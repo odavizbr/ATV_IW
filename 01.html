@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cálculo Horas/Aulas</title>
+        <script  src="js/01.js"></script>
+        <link rel="stylesheet" href="css/01.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Cálculo total de aulas</h1><br><br>
+            <div class="formss">
+                <label for="prof">• Nome do Professor:</label>
+                <input type="text" id="prof" placeholder="Digite o nome do professor">
+            </div>
+            <div class="formss">
+                <label for="dur">• Duração da aula (em horas):</label>
+                <input type="number" id="dur" step="0.1" value="0">
+            </div>
+            <div class="formss">
+                <label for="aulas">• Total de aulas na semana:</label>
+                <input type="number" id="aulas" value="0">
+            </div>
+            <button type="reset">Resetar</button>
+            <button onclick="gerar()">Gerar cálculo</button>
+
+            <div class="rest" id="rest">
+
+            </div>
+        </div>
+    </body>
+
+</html>
