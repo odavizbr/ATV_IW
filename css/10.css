@@ -1,0 +1,24 @@
+div {
+    border: 0px solid #000;
+    box-shadow:  5px 5px 15px;
+}
+
+section #central {
+    width: 670px;
+    height: 400px;
+}
+#img01,
+#img02,
+#img03,
+#img04,
+#img05,
+#img06{
+    margin: 1px;
+    width: 110px;
+    height: 100px;
+    float: left;
+} 
+img {
+    width: 100%;
+    height: 100%;
+}
